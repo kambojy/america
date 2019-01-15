@@ -1,0 +1,251 @@
+html {
+  height: 100%;
+}
+body {
+  background: #E2E4E7;
+  padding: 0;
+  text-align: center;
+  font-family: 'open sans';
+  position: relative;
+  margin: 0;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+	height: 100% !important;
+	height: 100%;
+	margin: 0 auto; 
+	overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+h2 {
+  width: 100%;
+}
+h1 span {
+  font-size: 26px;
+  margin: 0 5px;
+  text-transform: capitalize;
+  background: rgba(0,0,0,0.85);
+  display: inline-block;
+  color: #6D461D;
+  border-radius: 5px 5px;
+  -webkit-border-radius: 5px 5px;
+  -moz-border-radius: 5px 5px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.75);
+  padding: 3px 10px;
+}
+h2 {
+  color: #fff ;
+  font-weight: 100;
+  font-size: 2vw;
+  margin-bottom: 10px;
+}
+h1 {
+  text-align: center;
+}
+
+.main section {
+  background: url('../ph/back.jpg');
+}
+
+.main {
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main h1 {
+  font-size: 45px;
+  color: white;
+}
+
+.main h1.demo1 {
+  background: #1ABC9C;
+}
+
+
+#kyr {
+  opacity: 0.0666667;
+  position: absolute;
+  margin-top: 41.4%;
+  margin-left: -100%;
+  z-index: 0;
+}
+
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  display: block;
+  padding: 7px;
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.25);
+  font-weight: bold;
+  font-size: 36px;
+  color: #000;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+header {
+  position: relative;
+  z-index: 10;
+}
+.main section .page_container {
+  position: relative;
+  top: 10%;
+  margin: 0 auto 0;
+  max-width: 70%;
+  z-index: 3;
+}
+.main section  {
+  overflow: hidden;
+}
+
+section {
+  background: #555557;
+}
+
+span {
+  color: #fff;
+  font-size: 30px;
+}
+
+sup {
+  color: #000;
+  font-size: initial;
+}
+
+.main section > img {
+  position: absolute;
+  max-width: 100%;
+  z-index: 1;
+}
+
+.main section.page1, h1 {
+  text-align: center;
+  padding: 0;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.main section.page4 img {
+  width: 25%;
+  float: left;
+  margin: 7px;
+}
+
+.main section.page4 h2 {
+  text-align: left;
+  font-size: 2vw;
+}
+
+.main section.page4 .page_container {
+  top: 15% !important;
+}
+
+.main section.page15 h1 {
+  font-size: 7vw;
+}
+
+.main section.page5 h2 {
+  line-height: 115%;
+}
+
+.main section.page10 h2 {
+  font-size: 2.5vw;
+}
+
+.main section.page12 h1 {
+  width: 140%;
+  margin-left: -20%;
+}
+
+.main section.page1 h2 {
+  text-align: center;
+  width: 70%;
+  line-height: 120%;
+}
+.main section .page_container .btns {
+  clear: both;
+  float: left;
+  text-align: center;
+  width: 435px;
+}
+.main section .page_container .btns a{
+  text-align: center;
+}
+.main section.page2 h1 {
+  text-align: center;
+  padding: 0;
+  margin-bottom: 15px;
+  font-size: 50px;
+  letter-spacing: -1px;
+  color: white;
+}
+.main section.page2 h2 {
+  color: rgba(255,255,255,0.85);
+  text-align: center;
+  line-height: 160%;
+  font-weight: 100;
+}
+
+.main section.page3 h2 {
+  text-align: left;
+  line-height: 160%;
+  font-size: 2vw;
+}
+
+.main section.page3 img {
+    width: 60%;
+    float: left;
+    margin: 0 7px 0 0;
+}
+
+
+body.disabled-onepage-scroll .onepage-wrapper  section {
+  min-height: 100%;
+  height: auto;
+}
+
+body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .main section.page3 .page_container  {
+  padding: 20px;
+  margin-top: 150px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body.disabled-onepage-scroll  section .page_container h1{
+  text-align: center;
+  font-size: 50px;
+}
+body.disabled-onepage-scroll section .page_container h2, body.disabled-onepage-scroll section .page_container .credit, body.disabled-onepage-scroll section .page_container .btns{
+  text-align: center;
+  width: 100%;
+}
+
+body.disabled-onepage-scroll .main section > img {
+  position: relative;
+  max-width: 80%;
+  bottom: 0;
+}
+
+body.disabled-onepage-scroll .main section.page3 .page_container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+}
